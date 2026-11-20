@@ -6,8 +6,7 @@ Site estático: `index.html` + `style.css` + `script.js`, sem framework e sem bu
 ## Fotos
 - Originais em `fotos/` · versões otimizadas em `fotos/web/` (640, 1280 e 1920 px, .webp).
 - Ao adicionar ou trocar uma foto, rode `python3 scripts/gerar_webp.py` (precisa de `pip install pillow`).
-- Fotos que ainda não estão na pasta são escondidas automaticamente, e o contador do lightbox se ajusta sozinho.
-  Faltam hoje: `sapato_editorial_4k.png`, `camila_gemini3_4K_v2.jpg` e `camila_gemini2_4K.jpg`.
+- Se alguma foto sair da pasta, o site a esconde automaticamente e o contador do lightbox se ajusta sozinho.
 
 ## Rodar localmente
     python3 -m http.server 8080
